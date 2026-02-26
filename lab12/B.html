@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            
+            height: 97vh;
+            width: 98vw;
+            display: flex;
+            background-color: aqua;
+            position: relative;
+        }
+        .circle{
+            border-radius: 50%;
+            background-color: chocolate;
+            border: 1px solid black;
+            height:100px;
+            width: 100px;
+            position: absolute;
+
+            animation-name: Circle;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+        }
+        .square{
+            height: 100px;
+            width: 100px;
+            border-color: black;
+            background-color:coral;
+            border:1px solid black;
+            position: absolute;
+
+            animation-name: Square;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes Circle{
+            0%{
+               top: 0%;
+               left: 0%;
+            }
+            25%{
+                top: 90%;
+                left: 90%;
+            }
+            50%{
+                top: 0%;
+                left:;
+            }
+            75%{
+                top: 100%;
+                left:0% ;
+            }
+            100%{
+                top: 0%;
+                left: 0%;
+            }
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="circle">
+
+        </div>
+        <div class="square">
+
+        </div>
+    </div>
+</body>
+</html>

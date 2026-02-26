@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 97vh;
+            width: 97vw;
+            background-color: aqua;
+        }
+        .class{
+            height: 100px;
+            width: 200px;
+            background-color: burlywood;
+            border: 2px solid black;
+
+            animation-name: Around;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes Around{
+            0%{
+                background-color: burlywood;
+                top: 0%;
+                left: 0%;
+            }
+            25%{
+                background-color: antiquewhite;
+                top: 0%;
+                left: 80%;
+            }
+            50%{
+                background-color: chocolate;
+                top: 80%;
+                left: 80%;
+            }
+            75%{
+                background-color: crimson;
+                top: 80%;
+                left: 0%;
+            }
+            100%{
+                background-color: brown;
+                top: 0%;
+                left: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="class">
+            -SCREEN SAVER-
+        </div>
+    </div>
+</body>
+</html>

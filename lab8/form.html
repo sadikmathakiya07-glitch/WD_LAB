@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 align="center">
+        Contact Form
+    </h1>
+    <br>
+    <br>
+    <form action="" method="get" align="center">
+        <table align="center" cellpadding="20" cellpacing="2">
+            <tr>
+                <td>
+                    <label for="name">Name</label>
+                </td>
+                <td> <input type="text" required placeholder="enter name.........."></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email">E-Mail</label>
+                </td>
+                <td>
+                    <input type="email" pattern="[A-Za-z0-9]+@[a-z]+/.[a-z]" required placeholder="enter email........">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Phone No.</label>
+                </td>
+                <td>
+                    <input type="tel[0-9]{10}" required placeholder="enter phone no............">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="date">Date Of Birth</label>
+                </td>
+                <td>
+                    <input type="date" >
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label for="">Password</label>
+                </td>
+                <td>
+                    <input type="password" pattern="[a-zA-Z0-9]+[!@#$%^&*()_]" placeholder="enter password......">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Feedback</label>
+                </td>
+                <td>
+                    <textarea name="" id="" placeholder="feedback............"></textarea>
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+                <td>
+                    <button type="reset">Reset</button>
+                </td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

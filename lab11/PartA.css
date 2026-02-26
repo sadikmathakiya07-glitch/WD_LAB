@@ -1,0 +1,51 @@
+.main{
+    height: 100vh;
+    width: 98vw;
+    background-color:white;
+    border: 2px solid black;
+}
+.box1{
+    height: 50%;
+}
+.box2{
+    height: 100%;
+    background-color: rgb(82, 83, 83);
+    background-image: url(./roverhate-man-1351393_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 10vh;
+    background-color: blueviolet;
+    width: 20vw;
+}
+.nav{
+    float: right;
+}
+.nav a{
+    font-size: large;
+    text-decoration: none;
+    color:rgb(9, 9, 9);
+    padding: 10px;
+}
+.text{
+    position: absolute;
+    left: 50vw;
+    font-size: 36px;
+    top: 150px;
+}
+.box3{
+    background-color: rgb(243, 237, 237);
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    height: 20vh;
+    width: 20vw;
+    background-color: rgb(102, 102, 108);
+    padding: 10px;
+}
+

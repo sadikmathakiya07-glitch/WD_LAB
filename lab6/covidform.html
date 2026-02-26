@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="./thankyou.html" target="_blank" >
+     <h1 align="center">COVID-19 Vaccine Registration Form</h1>
+    
+    <table align="center" cellpadding="10" cellspacing="2">
+        <tr>
+            <td>
+                <label for="name">First Name</label>
+                </td>
+                <td>
+                <input type="text"  id="name" placeholder="Enter Your First Name....." >
+            </td>   
+        </tr>
+       
+       
+        <tr>
+            <td>
+                <label for="name">Last Name</label>
+                </td>
+                <td>
+                <input type="text" id="Name" placeholder="Enter Your Last Name......">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="number">Aadhar Number</label>
+            </td>
+            <td>
+                <input type="tel" [0-9]{12} placeholder="Enter Your Aadhar Number">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="">Vaccine Name</label>
+
+            </td>
+            <td>
+                <select name="" id="">
+                    <option value="" disabled selected>Please Select Vaccine Name</option>
+                    <option value="">Corbevax</option>
+                    <option value="">Covovax</option>
+                    <option value="">Zydus cadils</option>
+                    <option value="">Moderna</option>
+                </select>
+            </td>
+        <tr>
+            <td>
+                <label for="">Vaccination Center Name</label>
+            </td>
+            <td>
+                <select name="" id="">
+                    <option value=""selected disabled>Please Select Vaccination Center Name</option>
+                    <option value="">Rajkot</option>
+                    <option value="">Wankaner</option>
+                    <option value="">Jamnagar</option>
+                    <option value="">Morbi</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Date of Dose</label>
+              
+            </td>
+            <td>
+                  <input type="date">
+            </td>
+        </tr>
+     <tr>
+        <td><label for="">Dose Number</label></td>
+        <td><input type="number" max="10" min="0" ></td>
+     </tr>
+     <tr>
+        <td colspan="2"> 
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+            <button type="cancel">CANCEL</button>
+        </td>
+     </tr>
+    </table>
+   </form>
+</body>
+</html>

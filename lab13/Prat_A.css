@@ -1,0 +1,112 @@
+*{
+    font-size: 20px;
+    /* color: white; */
+}
+
+.main{
+    height: 94vh;
+    background-color: rgb(174, 216, 230);
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+.box{
+    background-color:  rgb(255, 165, 0);
+    height: 80vh;
+    width: 180vh;
+
+}
+.heder{
+    height: 25px;
+    background-color: rgb(133, 4, 94);
+}
+.content{
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.enter{
+    background-color: black;
+    width: 85vh;
+    height: 30px;
+    margin: 36px;
+    color: white;
+    padding-left: 10px;
+}
+.siedbar{
+    float: right;
+    background-color:rgb(0, 0, 0);
+    height: 150px;
+    width: 420px;
+    margin-top: 30px;
+    margin-right:80px ;
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.footer{
+    background-color:rgb(0, 1, 252);
+    height: 30px;
+    width: 180vh;
+    color: white;
+}
+/* 992 742 480 */
+@media all and (max-width: 992px){
+    .main{
+        height: 90vh;
+        width:88vw;
+        background-color: rgb(102, 0, 255);
+    }
+    .box{
+        width: 80vw;
+    }
+    .enter{
+        width: 35vh;
+    }
+    .siedbar{
+        width: 30vw;
+    }
+    .footer{
+        width: 80vw;
+    }
+}
+
+@media all and (max-width: 768px){
+    .siedbar{
+        margin-right: 40px;
+    }
+}
+
+@media all and (max-width: 660px){
+
+    .siedbar{
+       float: none;
+       position: absolute;
+       bottom: 80px;
+       margin-left: 35px;
+       }
+}
+
+@media all and (max-width: 500px){
+    .main{
+        width: 75vw;
+    }
+    .box{
+        width:65vw;
+    }
+    .footer{
+        width: 65vw;
+    }
+    .enter{
+        height: 5vh;
+        width: 35vw;
+        
+    }
+    .siedbar{
+       float: none;
+       position: absolute;
+       bottom: 80px;
+       margin-left: 35px;
+       }
+}
+

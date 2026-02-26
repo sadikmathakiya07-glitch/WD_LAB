@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Layout</title>
+    <style>
+      
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+          
+            background-color: #ADD8E6; 
+            padding: 20px;
+        }
+
+       
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: transparent;
+        }
+
+       
+        header {
+            background-color: purple;
+            color: white;
+            padding: 10px 15px;
+            font-size: 18px;
+            
+            margin-bottom: 0; 
+        }
+
+      
+        .main-content {
+            background-color: orange;
+            padding: 15px 20px 40px 20px;
+            min-height: 400px;
+        }
+
+        .content-label {
+            margin-bottom: 10px;
+            font-weight: normal;
+        }
+
+        .content-flex {
+            display: flex;
+            gap: 50px; 
+        }
+
+       
+        .entries-column {
+            flex: 2; 
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+        }
+
+        .entry-bar {
+            background-color: black;
+            color: white;
+            padding: 10px 15px;
+            width: 100%;
+        }
+
+       
+        aside.sidebar {
+            flex: 1; 
+            background-color: black;
+            color: white;
+            padding: 15px;
+            height: 200px; 
+        }
+
+       
+        footer {
+            background-color: blue;
+            color: white;
+            padding: 5px 15px;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            Page Header
+        </header>
+
+        <div class="main-content">
+            <div class="content-label">Content</div>
+            
+            <div class="content-flex">
+                <div class="entries-column">
+                    <div class="entry-bar">Entry</div>
+                    <div class="entry-bar">Entry</div>
+                    <div class="entry-bar">Entry</div>
+                </div>
+
+                <aside class="sidebar">
+                    Sidebar
+                </aside>
+            </div>
+        </div>
+
+        <footer>
+            &copy;Darshan University-Rajkot
+        </footer>
+    </div>
+
+</body>
+</html>
